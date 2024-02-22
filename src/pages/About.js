@@ -11,7 +11,6 @@ export default function About() {
         <div className="flex flex-col md:flex-row">
           {/* Left Column */}
           <div className="flex-1">
-            {/* Replace 'your-image-source.jpg' with your actual image source */}
             <img
               src={NinaMain}
               alt="Nina Wiik"
@@ -20,7 +19,7 @@ export default function About() {
           </div>
 
           {/* Right Column */}
-          <div className="flex-1 p-4">
+          <div className="flex-1 p-4 text-[#CFC8CA]">
             <p className="text-4xl font-semibold mb-4">Hei!</p>
             <p className="mb-4">
               Mitt navn er Nina Wiik, og jeg er 31 år gammel med en stor lidenskap for dyr,
@@ -45,7 +44,7 @@ export default function About() {
         </div>
       </div>
           
-      <div className="container mx-auto mb-10 md:px-24 lg:px-48 xl:px-48">
+      <div className="container mx-auto mb-10 md:px-24 lg:px-48 xl:px-48 text-[#CFC8CA]">
         <h2 className="text-2xl md:text-4xl mb-4">Heavenly Revenges Caramel Fudge</h2>
         <div className="flex flex-col md:flex-row">
           {/* Left Column */}
@@ -77,7 +76,7 @@ export default function About() {
         </div>
       </div>
           
-      <div className="container mx-auto mb-10 md:px-24 lg:px-48 xl:px-48">
+      <div className="container mx-auto mb-10 md:px-24 lg:px-48 xl:px-48 text-[#CFC8CA]">
         <h2 className="text-2xl md:text-4xl mb-4">Stargazing Platform9And3Quarters</h2>
         <div className="flex flex-col md:flex-row">
           {/* Left Column */}

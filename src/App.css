@@ -22,9 +22,28 @@
 }
 
 body {
-  color: black;
-  background-color: white;
   overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+h1, h2 {
+  color: #CFC8CA;
+}
+
+h2 {
+  font-family: 'Lovelace-regular';
+  font-size: 32px;
+}
+
+h3 {
+  font-family: 'AngellaWhite';
+  font-size: 80px;
+  color: #CFC8CA;
+}
+
+p {
+  font-size: 18px;
+  margin: 20px 0 20px 0;
+  color: #CFC8CA;
 }
 
 .home-bg-image {

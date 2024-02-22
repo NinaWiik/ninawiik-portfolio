@@ -6,7 +6,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-between gap-10">
             <div className="sm:flex-1 text-left">
               <h2 className="text-3xl font-bold mb-3">LITEN PAKKE</h2>
-              <div className="bg-gray-300 rounded-lg text-lg p-6">
+              <div className="bg-[#61A6AB] rounded-lg text-lg p-6">
                 <ul>
                   <li>• 30-45 min fotografering</li>
                   <li>• 1 hund</li>
@@ -18,7 +18,7 @@ export default function Home() {
             </div>
             <div className="sm:flex-1 text-left">
               <h2 className="text-3xl font-bold text-left mb-3">MEDIUM PAKKE</h2>
-              <div className="bg-gray-300 rounded-lg text-lg p-6">
+              <div className="bg-[#61A6AB] rounded-lg text-lg p-6">
                 <ul>
                   <li>• 60 min fotografering</li>
                   <li>• Flere hunder</li>
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className="sm:flex-1 text-left">
               <h2 className="text-3xl font-bold text-left mb-3">STOR PAKKE</h2>
-              <div className="bg-gray-300 rounded-lg text-lg p-6">
+              <div className="bg-[#61A6AB] rounded-lg text-lg p-6">
                 <ul>
                   <li>• 60-90 min fotografering</li>
                   <li>• Flere hunder</li>
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
             </div>
                 <h2 className="text-3xl font-extrabold text-left mt-10 mb-5">ØVRIGE PRISER</h2>
-                <div className="bg-gray-300 rounded-lg text-center py-10 text-xl">
+                <div className="bg-[#61A6AB] rounded-lg text-center py-10 text-xl">
                     <p className="font-extrabold mb-2">Kjøreutgifter utenfor Vestfold: </p>
                     <p>5,- pr/km</p>
 
@@ -50,7 +50,7 @@ export default function Home() {
                 </div>
                 
             <h2 className="text-3xl font-extrabold text-left mt-10 mb-5">OM FOTOGRAFERINGEN</h2>
-            <div className="bg-gray-300 rounded-lg text-left py-2 text-xl p-8">
+            <div className="bg-[#61A6AB] rounded-lg text-left py-2 text-xl p-8">
                 <p className="my-3 pt-4 leading-8">Tidsskjema som er oppført er veiledende, så jeg vil bruke den tiden det tar for at det er nok bilder å arbeide med i ettertid.</p>
 
                 <p className="my-3 pt-4 leading-8">Det er etter fotograferingen at arbeidet begynner, og det er etterbehandlingen av bildene som er en delikat og tidkrevende prosess. Jeg legger mye tid i hvert bilde og gjør mitt ytterste for at du som kunde skal bli fornøyd. Det kan også være at jeg lager flere versjoner av samme bilde, så du kan velge hva du liker best. </p>
