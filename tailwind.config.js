@@ -5,10 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        cream: "#fdefe4",
+        "blush": "#e6c5bf",
+        "taupe": "#6d6869",
+        "green": "#93a197",
+        "teal-light": "#64959b",
+        "teal-dark": "#107980",
+        "gray": "#6c7a85",
       },
     },
   },

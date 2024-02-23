@@ -30,8 +30,8 @@ import Picture26 from '../gallery/Picture26.jpg';
 
 export default function Gallery() {
     return (
-        <div className="container mx-auto mb-10 md:px-24 lg:px-48 xl:px-72">
-            <h1 className="text-6xl my-8">Gallery</h1>
+        <div className="bg-taupe mx-auto mb-10 md:px-24 lg:px-48 xl:px-72">
+            <h1 className="text-6xl mb-8 pt-8">Portfolio</h1>
             <ResponsiveGallery
         useLightBox
         images={[

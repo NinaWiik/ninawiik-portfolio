@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="bg-[#CFC8CA] p-4 flex justify-between items-center">
+    <div className="bg-blush p-4 flex justify-between items-center">
       <a href="/">
         {/* Logo on the left */}
         <div className="flex items-center">
@@ -45,19 +45,19 @@ export default function Navbar() {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               {/* Links on the right */}
-              <Link to="/" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline my-2">
+              <Link to="/" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-teal-dark hover:no-underline my-2">
                 Home
               </Link>
-              <Link to="/about" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline my-2">
+              <Link to="/about" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-teal-dark hover:no-underline my-2">
                 About
               </Link>
-              <Link to="/pricing" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline my-2">
+              <Link to="/p" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-teal-dark hover:no-underline my-2">
                 The Photoshoot
               </Link>
-              <Link to="/gallery" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline my-2">
+              <Link to="/gallery" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-teal-dark hover:no-underline my-2">
                 Portfolio
               </Link>
-              <Link to="/contact" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline my-2">
+              <Link to="/contact" className="navbar-link cursor-pointer text-lg sm:text-xl hover:text-teal-dark hover:no-underline my-2">
                 Contact
               </Link>
             </ul>
@@ -67,11 +67,11 @@ export default function Navbar() {
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           {/* Links on the right */}
           <div className={`sm:flex ${isNavOpen ? 'block' : 'hidden'} mt-4 sm:mt-0`}>
-            <Link to="/" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline">Home</Link>
-            <Link to="/about" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline">About</Link>
-            <Link to="/pricing" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline">The Photoshoot</Link>
-            <Link to="/gallery" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline">Portfolio</Link>
-            <Link to="/contact" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-[#61A6AB] hover:no-underline">Contact</Link>
+            <Link to="/" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-teal-dark hover:no-underline">Home</Link>
+            <Link to="/about" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-teal-dark hover:no-underline">About</Link>
+            <Link to="/pricing" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-teal-dark hover:no-underline">The Photoshoot</Link>
+            <Link to="/gallery" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-teal-dark hover:no-underline">Portfolio</Link>
+            <Link to="/contact" className="navbar-link cursor-pointer mx-10 text-lg sm:text-xl hover:text-teal-dark hover:no-underline">Contact</Link>
           </div>
         </ul>
       </nav>

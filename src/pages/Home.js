@@ -3,15 +3,16 @@ import NinaPoppy from "../images/Eukanuba_Companion_Portrett-N+P-240209-140-Enha
 import NinaPoppy2 from "../images/ninapoppy1.jpg";
 import IoGreen from "../images/iotop1.jpg";
 import Selvportrett from "../images/Selvportrett-hagen-Poppy231110-9-Enhanced-NR.psd-v1.jpg-web.jpg"
+import Brie from "../images/Brie_Photoshoot-long.jpg";
 
 export default function Home() {
     return (
         <body>
-            <div className="bg-[#21262B] px-4 lg:px-40 flex flex-wrap items-center justify-start">
+            <div className="bg-taupe px-4 lg:px-40 flex flex-wrap items-center justify-start">
                 {/* Text column */}
                 <div className="w-full lg:w-2/3 p-8">
-                  <h2 className="">Dyrefotograf i Vestfold</h2>
-            <h3 className="mb-6">Fanger magiske øyeblikk av ditt dyr</h3>
+                  <h2 className="text-cream">Dyrefotograf i Vestfold</h2>
+            <h3 className="mb-6 text-cream">Fanger magiske øyeblikk av ditt dyr</h3>
             
             <p>
               Jeg er overbevist om at dyrene våre alltid kommer inn i livene våre av en spesiell grunn. De følger oss i en viss tid, inspirerer oss og
@@ -22,7 +23,7 @@ export default function Home() {
             <p>
             Bilder er imidlertid ikke bare det som hjelper oss med å huske alt dette. De kan også gjøre alt det vi føler inni oss synlig for deg og for andre. Litt magisk, hvis du spør meg.
             </p>
-            <button className="bg-[#61A6AB] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Kontakt meg for å lage magiske øyeblikk</button>
+            <button className="bg-teal-light hover:bg-teal-dark text-white font-bold py-2 px-4 rounded mt-4">Kontakt meg for å lage magiske øyeblikk</button>
             </div>
 
                 {/* Image column */}
@@ -31,7 +32,7 @@ export default function Home() {
                 </div>
         </div>
         
-        <div className=" bg-[#CFC8CA] px-4 lg:px-40 flex flex-wrap items-center justify-start">
+        <div className=" bg-blush px-4 lg:px-40 flex flex-wrap items-center justify-start">
                 {/* Image column */}
                 <div className="w-full lg:w-1/3 p-8">
                     <img src={NinaPoppy2} alt="Bilde" className="rounded-md"/>
@@ -49,14 +50,14 @@ export default function Home() {
             </div>
         </div>
         <div className="w-full">
-                    <img src={IoGreen} alt="Bilde" className="rounded-md"/>
+                    <img src={Brie} alt="Bilde" className=""/>
         </div>
         
-        <div className="bg-[#21262B] px-4 lg:px-40 flex flex-wrap items-center justify-start">
+        <div className="bg-taupe px-4 lg:px-40 flex flex-wrap items-center justify-start">
                 {/* Text column */}
                 <div className="w-full lg:w-2/3 p-8">
-                  <h2 className="">Hvem er jeg?</h2>
-            <h3 className="mb-6">Mitt navn er Nina Wiik!</h3>
+                  <h2 className="text-cream">Hvem er jeg?</h2>
+            <h3 className="mb-6 text-cream">Mitt navn er Nina Wiik!</h3>
             
             <p>
               Crazy dog mom, tech nerd, fotoentuist og alltid på jakt etter det perfekte øyeblikket, fantastiske plasser og evig søken etter ny kunnskap! Du finner meg somregel med en aussie
@@ -71,7 +72,7 @@ export default function Home() {
                 Jeg har alltid vært på leting etter de perfekte plassene å ta bilder, slik at man lage noe magisk utav det. Jeg leter etter små og vakre øyeblikk som jeg har lyst å vise deg gjennom 
                 bildene mine, og jeg elsker hvordan man kan leke med lyset for å oppnå akuratt dette.
               </p>
-            <button className="bg-[#61A6AB] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Bli bedre kjent med meg</button>
+            <button className="bg-teal-light hover:bg-teal-dark text-white font-bold py-2 px-4 rounded mt-4">Bli bedre kjent med meg</button>
             </div>
 
                 {/* Image column */}
