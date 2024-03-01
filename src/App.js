@@ -10,18 +10,18 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css';
 
 function App() {
-  return (
+  return (    
     <div className="App">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/pricing' element={<Pricing />} />
+        <Route path='/p' element={<Pricing />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
-  </div>
+    </div>
   );
 }
 
